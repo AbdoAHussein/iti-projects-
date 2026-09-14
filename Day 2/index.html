@@ -6,25 +6,82 @@
            <title>Document</title>
         </head>
         <body>
-            <h1>Lorem, ipsum dolor.</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quas dignissimos facere neque quam animi veritatis culpa corporis magni consequatur, accusantium quasi illo harum voluptate assumenda, alias qui ut! Illum perspiciatis omnis asperiores et fugit tenetur praesentium similique sint eveniet necessitatibus architecto in, rem deserunt! Dolores, molestias? Officiis, voluptatem! Mollitia possimus voluptate, obcaecati maiores ullam rerum beatae odio, aspernatur aliquam iste, commodi doloribus perspiciatis necessitatibus. Voluptatem alias ullam illum fugit repellat perspiciatis quaerat, natus rerum tempore fuga? Omnis aliquam provident quidem nostrum! Voluptates iste, porro eius enim fuga numquam asperiores expedita harum. Atque eius explicabo omnis sit libero distinctio corporis?</p>
-            <ul>
-                <li>pizza
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-                </li>
-                <li>burger
-                    
-                <ol>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ol> 
-                </li>       
-            </ul>
-            
+            <a href="index.html">Main</a>
+            <a href="order.html">Make an Order</a>
+            <a href="contact.html">Contact Us</a>
+            <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+            <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour.</p>
+            <form>
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" >
+                    <br>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" >
+                    <br>
+                    <label for="phone">Telephone Number:</label>
+                    <input type="tel" id="phone" name="phone" >
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" >
+                    <br>
+                    <label for="delivery-instructions">Delivery Instruction:</label>
+                    <br>
+                    <textarea id="delivery-instructions" name="delivery-instructions" rows="4" cols="50" placeholder="No more than 400 character long"></textarea>
+                </fieldset>
+            </form>
+
+            <h2>Design Your Dream Pizza:</h2>
+            <form>
+                <fieldset>
+                    <legend>Pizza specs</legend>
+                    <fieldset>
+                        <legend>Crust (Choose one):</legend>
+                        <input type="radio" id="classic white" name="crust" value="classic white">
+                        <label for="classic white">Classic White</label>
+                        <br>
+                        <input type="radio" id="multigrain" name="crust" value="multigrain">
+                        <label for="multigrain">Multigrain</label>
+                        <br>
+                        <input type="radio" id="choose-stuffed crust" name="crust" value="choose-stuffed crust">
+                        <label for="choose-stuffed crust">Choose Stuffed Crust</label>
+                        <br>
+                        <input type="radio" id="gluten free" name="crust" value="gluten free">
+                        <label for="gluten free">Gluten Free</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Toppings (Choose as many as you want):</legend>
+                        <input type="checkbox" id="red sauce" name="red sauce" value="red sauce">
+                        <label for="red sauce">Red Sauce</label>
+                        <br>
+                        <input type="checkbox" id="white sauce" name="white sauce" value="white sauce">
+                        <label for="white sauce">White Sauce</label>
+                        <br>
+                        <input type="checkbox" id="mozzarella" name="mozzarella" value="mozzarella">
+                        <label for="mozzarella">Mozzarella Cheese</label>
+                        <br>
+                        <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                        <br>
+                        <input type="checkbox" id="mushrooms" name="mushrooms" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                        <br>
+                        <input type="checkbox" id="peppers" name="peppers" value="peppers">
+                        <label for="peppers">Peppers</label>
+                        <br>
+                        <input type="checkbox" id="anchovies" name="anchovies" value="anchovies">
+                        <label for="anchovies">Anchovies</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Number</legend>
+                        <label for="number">How many pizzas:</label>
+                        <input type="number" id="number" name="number" min="1" >
+                    </fieldset>
+                </fieldset>
+
+                <input type="submit" value="Bring my pizza!">
+                <input type="reset" value="Reset">
+            </form>
         </body>
     </html>
