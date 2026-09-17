@@ -1,0 +1,139 @@
+website work
+
+1. Static Web 
+2. Dynamic Web 
+
+Browser 4 Display Stages
+
+1. parsing 
+2. Render 
+3. Layout  
+4. Paint/View
+
+web Designs Types
+
+1. Static Web Design
+2. Dynamic Web Design 
+3. Responsive Web Design
+
+
+==================================================================================================================
+
+                                                      HTML
+
+
+HTML (HyperText Markup Language) : is the standard language used to create and structure web pages. It defines the content and structure of a website, such as headings, paragraphs, images, links, forms, tables, and more.
+
+HTML was created by "Tim Berners-Lee" in 1993 while working at CERN. He developed HTML as part of the technologies that became the foundation of the World Wide Web.
+first version html1.2 , The most widely used version throughout the 2000's was HTML 4.01 , We are currently in HTML5 We have been using HTML5 since 2011.
+
+| Tag              | Usage                           |
+| ---------------- | --------------------------------|
+| `<!DOCTYPE html>`| The version of HTML5            |
+| `<html>`         | Root element of the page        |
+| `<head>`         | Contains page information       |
+| `<meta>`         | Provides metadata about the page|
+| `<title>`        | Title for the HTML page         |
+| `<body>`         | Contains the visible content    |
+| `<h1>` – `<h6>`  | Headings                        |
+| `<p>`            | Paragraph                       |
+| `<a>`            | Create links                    |
+| `<img>`          | Displays an image               |
+| `<figure>`       | Groups media with a caption     |
+| `<figcaption>`   | Adds a caption                  |
+| `<audio>`        | Embeds audio                    |
+| `<video>`        | Embeds video                    |
+| `<source>`       | Specifies media source          |
+| `<iframe>`       | Embeds another page or content  |
+| `<canvas>`       | Draws graphics using JavaScript |
+| `<ul>` / `<ol>`  | Unordered / ordered lists       |
+| `<li>`           | List item                       |
+| `<div>`          | Generic block container         |
+| `<span>`         | Generic inline container        |
+| `<br>`           | Line break                      |
+| `<hr>`           | Horizontal line                 |
+| `<b>`            | bold text                       |
+| `<strong>`       | Important/bold text             |
+| `<em>`           | Emphasized/italic text          |
+| `<i>`            | italic text                     |
+| `<mark>`         | Highlighted text  	             |
+| `<del>`          | Deleted text  	             |
+| `<ins>`          | Inserted text  	             |
+| `<sub>`          | Subscript text  	             |
+| `<sup>`          | Superscript text  	             |
+| `<table>`        | Create tables                   |
+| `<caption >`     | Table caption                   |
+| `<thead>`        | Table header section            |
+| `<tbody>`        | Table body                      |
+| `<tfoot>`        | Table footer                    |
+| `<tr>`           | Table row                       |
+| `<td>`           | Table data/cell                 |
+| `<th>`           | Table header                    |
+| `<form>`         | Create forms                    |
+| `<input>`        | User input                      |
+| `<textarea>`     | Multi-line input                |
+| `<button>`       | Button                          |
+| `<select>`       | Dropdown menu                   |
+| `<option>`       | Dropdown option                 |
+| `<label>`        | Label for form input            |
+| `<optgroup>`     | Groups dropdown options         |
+| `<datalist>`     | Provides autocomplete options   |
+| `<fieldset>`     | Groups form controls            |
+| `<legend>`       | Fieldset title                  |
+| `<q>`            | quotation  	             |
+| `<blockquote>`   | Long quotation                  |
+| `<code>`         | Code text   	             |
+| `<abbr>`         | Abbreviation text  	     |
+| `<header>`       | Page/section header             |
+| `<nav>`          | Navigation links                |
+| `<a>`            | Hyperlink links                 |
+| `<main>`         | Main page content               |
+| `<section>`      | Section of content              |
+| `<article>`      | Independent content             |
+| `<footer>`       | Footer                          |
+| `<address>`      | Contact information             |
+| `<details>`      | Expandable content              |
+| `<summary>`      | Title for `<details>`           |
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+| Attribute     | Usage                          |
+| ------------- | ------------------------------ |
+| `id`          | Unique identifier              |
+| `class`       | Groups elements                |
+| `href`        | Specifies a link               |
+| `src`         | Specifies a resource/image     |
+| `alt`         | Alternative text for images    |
+| `title`       | Additional information         |
+| `name`        | Identifies form fields         |
+| `value`       | Specifies a value              |
+| `placeholder` | Hint inside an input           |
+| `required`    | Makes input required           |
+| `selected`    | Selects an option              |
+| `target`      | Specifies where to open a link |
+| `hidden`      | Hides an element               | 
+| `rel`         | relationship between documents |
+| `width`       | Sets element width             |
+| `height`      | Sets element height            |
+| `autofocus`   | Automatically focuses an input |
+| `autocomplete`| Autocomplete                   |
+| `for`         | Connects a <label> to an input | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
