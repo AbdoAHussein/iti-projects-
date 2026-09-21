@@ -1,0 +1,76 @@
+:root{
+    --main-color:whitesmoke;
+    --second-color:teal;
+    --text-color:rgb(9, 20, 84);
+}
+*{
+    color:var(--main-color) ;
+}
+
+.footer , button ,select, option{
+    --local-color:black;
+    color:var(--local-color) ;
+}
+.text ,#tel{
+    color: var(--text-color);
+}
+#profile-img{
+    cursor:not-allowed
+}
+nav ul li a{ 
+    color:var(--second-color);
+    text-decoration:none ;
+    cursor: pointer;
+}
+#about>h2{
+    text-align: center;
+}
+
+
+#contact{
+    width:50vw ;
+    height:50vh ;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+button:hover{
+    background-color:red;
+}
+div{
+    width: 10em ;
+    height:10rem;
+    overflow: hidden;
+    overflow: auto;
+
+}
+main{
+    background-color: cornsilk;
+    background-image: url(../assest/image/images.jpeg);
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background:cornsilk url(../assest/image/images.jpeg) center 100% 1000% no-repeat fixed ;
+
+}
+footer p{
+    cursor: help;
+}
+/* Example on Specificity */
+.date-input {
+    color: darkgreen;
+}
+
+input[type='date']{
+    color: rgb(229, 12, 12);
+} 
+
+#date{
+    color:blue;
+}
+/* this is selector have higher priority */
+/*i use !important to prove that it has the highest priority*/
+.date-input {
+    color: black !important;
+}
