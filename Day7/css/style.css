@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --main-color: rgb(237, 224, 212);
+    --second-color:rgb(86, 39, 7);
+}
+body{
+    background-color: var(--main-color);
+}
+@font-face{
+    font-family: "my_font";
+    font-weight: 400px;
+    src: url(../font/StardosStencil-Bold.ttf);
+}
+h2{
+    font-family: my_font;
+    line-height:1.5;
+}
+.contener{
+    text-align: center;
+    color: var(--second-color);
+    background-color:rgb(221, 184, 146);
+    width: 50%;
+    margin: 2rem auto ;
+    padding: 50px;
+    border:2px dashed var(--second-color);
+    border-radius:5px ;
+    box-shadow: 10px 10px 10px rgb(104, 101, 101,.6);
+}
+.contener img{
+    width: 200px;
+    box-shadow: 10px 10px 10px rgb(104, 101, 101,.6);
+    border-radius: 50%;
+
+}
+.contener .btn{
+    color: whitesmoke;
+    background-color: rgb(156, 102, 68);
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid var(--second-color);
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: rgb(55, 6, 23);
+}
