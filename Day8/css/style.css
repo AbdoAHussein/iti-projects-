@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maim-color:rgb(245, 235, 228);
+}
+@font-face{
+    font-family:"my-font";
+    font-weight: 400px;
+    src: url(../font/Poppins-ExtraLightItalic.ttf);
+}
+html{
+    font-family:"my-font";
+}
+.container{
+    background-image: url(../assest/image/background.jpg);
+    height: 55vh;
+    text-align: center;
+    color: var(--maim-color);
+    background-size: 100% 75vh;
+    background-repeat: no-repeat; 
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    margin: auto 10px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: 50px;
+    margin: 80px;
+}
+.nav-links a{
+    text-decoration: none;
+    color:var(--maim-color);
+}
+.nav-links{
+    display: flex;
+    column-gap: 23px;
+}
+.container-content{
+    width: 50%;
+    height: 70%;
+    margin:40px auto;
+    padding: 30px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.container-content button{
+    margin: 15px auto;
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    color: var(--maim-color);
+    background-color: rgb(129, 98, 57);
+}
+.btn-contact{
+    background-color: transparent !important;
+    border: 1px solid var(--maim-color) !important;
+}
+.container-2{
+    width: 100%;
+    display:flex;
+    color: rgb(27, 13, 10);
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    column-gap:50px;
+}
+.container-2 img{
+    width: 300px;
+}
+.container-2 .demo{
+    margin: 20px auto;
+}
