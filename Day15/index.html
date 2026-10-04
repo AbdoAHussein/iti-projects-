@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- task1 -->
+    <!-- <div class="container-fluid   text-center" style='background-color: lightblue;'>
+        <input type="search" name="searchitem" id="searchitem" class="form-control w-50 mx-auto my-3" placeholder="Search Item">
+        <select name="selectitem" id="selectitem" class="form-control w-50 mx-auto my-3">
+        </select>
+        <div class="row justify-content-center "  id="itemlist">
+            <div class="col-md-3 col-sm-6" >
+                
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- task2 -->
+    <!-- <div class="container-fluid" style="height: 100vh; background-color: lightgray; text-align: center; justify-content: center; display: flex; align-items: center;">
+    
+        <div class="container " style='background-color: white;
+        height: 20vh;
+        width: 30%;
+        border-radius: 10px;
+        padding: 20px;
+        '> 
+            <h1>My To-Do List</h1>
+            <div class="input-group mb-3 ">
+                <input type="text" class="form-control" placeholder="Add a new task" id="taskInput">
+                <button class="btn btn-primary" type="button" id="addBtn">Add</button>
+            </div>
+            <div class="list-group" id="taskList"></div>
+        </div>
+    </div> -->
+
+    <!-- task3 -->
+    <div class="container-fluid">
+        <div class="container py-5" >
+            <form style="background-color: rgb(115, 114, 114);
+            padding: 20px;
+            border-radius: 10px;">
+                <h1 style="text-align: center; margin-bottom: 20px;">CRUD System</h1>
+                <input type="text" name="productName" id="productName" placeholder="Product Name" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border:none">
+                <br>
+                <input type="text" name="productPrice" id="productPrice" placeholder="Product Price" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border:none">
+                <br>
+                <input type="text" name="productCategory" id="productCategory" placeholder="Product Category" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border:none">
+                <br>
+                <textarea name="productDescription" id="productDescription" placeholder="Product Description" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border:none"></textarea>
+                <br>
+                <input type="file" name="productImage" id="productImage" placeholder="Product Image" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; background-color: white;">
+                <br>
+                <button type="submit" class="btn btn-primary productBtn">Add Product</button>
+            </form>
+            <input type="search" name="searchProduct" id="searchProduct" placeholder="Search Products" style="width: 100%; padding: 5px; margin-top: 20px; margin-bottom: 10px; border-radius: 4px;">
+        </div>
+        <div id="productOutput" class="container py-5">
+
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
